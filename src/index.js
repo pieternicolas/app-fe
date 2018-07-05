@@ -2,14 +2,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from './utils/registerServiceWorker';
 
 // React router related imports
 import { BrowserRouter } from 'react-router-dom';
 
 // React redux related imports
 import { Provider } from 'react-redux';
-import store from './store.js';
+import store from './store';
 
 // Bootstrap related imports
 window.jQuery = window.$ = require('jquery');
