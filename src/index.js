@@ -11,7 +11,10 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store.js';
 
-import './index.css';
+// Bootstrap related imports
+window.jQuery = window.$ = require('jquery');
+window.Popper = require('popper.js');
+
 
 ReactDOM.render((
   <Provider store={ store }>
