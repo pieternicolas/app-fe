@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { registerServiceWorker, setDefaultConfig } from './utils';
+import { registerServiceWorker, setDefaultConfig } from 'Utils';
 
 // React router related imports
 import { BrowserRouter } from 'react-router-dom';

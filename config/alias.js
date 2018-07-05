@@ -1,10 +1,9 @@
 const path = require('path');
-const DEV_DIR = path.join(__dirname, 'src');
 
 module.exports = {
-	Assets: path.join(DEV_DIR, 'assets/'),
-	Utils: path.join(DEV_DIR, 'utils/'),
-	Components: path.join(DEV_DIR, 'components/'),
-	Controllers: path.join(DEV_DIR, 'controllers/'),
-	Containers: path.join(DEV_DIR, 'containers/')
+	Assets: path.resolve(__dirname, '../src/assets/'),
+	Utils: path.resolve(__dirname, '../src/utils/'),
+	Components: path.resolve(__dirname, '../src/components/'),
+	Controllers: path.resolve(__dirname, '../src/controllers/'),
+	Containers: path.resolve(__dirname, '../src/containers/')
 };
