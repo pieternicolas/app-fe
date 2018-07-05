@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './utils/registerServiceWorker';
+import { registerServiceWorker, setDefaultConfig } from './utils';
 
 // React router related imports
 import { BrowserRouter } from 'react-router-dom';
@@ -14,6 +14,9 @@ import store from './store';
 // Bootstrap related imports
 window.jQuery = window.$ = require('jquery');
 window.Popper = require('popper.js');
+
+// Set default configs for packages
+setDefaultConfig();
 
 
 ReactDOM.render((
