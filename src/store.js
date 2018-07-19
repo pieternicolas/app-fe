@@ -2,11 +2,11 @@ import { combineReducers, createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import promiseMiddleware from 'redux-promise';
 
-import Session from 'Controllers/Session/Session_reducers.js';
+import session from 'Controllers/Session/Session_reducers.js';
 
 
 const appReducer = combineReducers({
-  Session
+  session
 });
 
 const rootReducer = (state, action) => {
