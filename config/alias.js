@@ -5,5 +5,5 @@ module.exports = {
 	Utils: path.resolve(__dirname, '../src/utils/'),
 	Components: path.resolve(__dirname, '../src/components/'),
 	Controllers: path.resolve(__dirname, '../src/controllers/'),
-	Containers: path.resolve(__dirname, '../src/containers/')
+	Views: path.resolve(__dirname, '../src/views/')
 };
