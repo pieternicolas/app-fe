@@ -1,12 +1,12 @@
 import React from 'react';
 
-const index = (props) => {
+import BackgroundVideo from './background-video';
+
+const Homepage = (props) => {
   return (
     <div className="homepage">
       <div className="overlay"></div>
-      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="mp4/bg.mp4" type="video/mp4"/>
-      </video>
+      <BackgroundVideo/>
 
       <div className="masthead">
         <div className="masthead-bg"></div>
@@ -52,4 +52,4 @@ const index = (props) => {
   )
 }
 
-export default index;
+export default Homepage;
